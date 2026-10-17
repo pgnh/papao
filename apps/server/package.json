@@ -1,0 +1,8 @@
+{
+  "name": "@pao/server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('Server placeholder for Phase 4')\""
+  }
+}

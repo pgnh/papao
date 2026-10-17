@@ -1,0 +1,16 @@
+{
+  "name": "pao-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pao Version 0.1 - Web Game PWA Doi Khang Toa Do & Gan Ket Van Hoa Dan Gian Viet Nam",
+  "packageManager": "pnpm@11.15.0",
+  "scripts": {
+    "dev:web": "pnpm --filter @pao/web dev",
+    "dev:server": "pnpm --filter @pao/server dev",
+    "build": "pnpm -r build",
+    "type-check": "pnpm -r type-check"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

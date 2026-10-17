@@ -1,0 +1,12 @@
+node_modules
+.next
+dist
+build
+.cache
+.turbo
+*.log
+.env.local
+.env*.local
+.DS_Store
+scratch/
+*.bak
